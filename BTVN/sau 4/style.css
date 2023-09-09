@@ -1,0 +1,81 @@
+h1, h2, h3, h4, h5, h6, input{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bar{
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    border: rgb(0, 115, 255) 5px solid;
+    border-radius: 10px;
+}
+#search-input{
+    flex-grow: 1;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+.btn{
+    width: 50px;
+    border: none; 
+    background-color: rgb(0, 115, 255);
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+
+}
+.btn:hover{
+    background-color: rgb(0, 183, 255);
+}
+#products{
+    
+    margin: 100px;
+    display: grid;
+    width: 100%;
+    grid-template-rows: 500px 500px;
+    grid-template-columns: 30% 30% 30%;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom:  100px;
+    background-color: rgb(190, 190, 190);
+    border: 30px white solid;
+    width: 350px;
+    height: 450px;
+}
+.product-name{
+    text-align: center;
+    font-size: 30px;
+    color: aqua;
+    margin: 0;
+}
+h6{
+    font-size: 20px;
+    color: rgb(0, 255, 42);
+    margin: 20px 50px;
+}
+img{
+    border: 10px white solid;
+    margin-left: 50px;
+    width: 70%;
+    /* margin: ; */
+}
+.hide{
+    display: none;
+}
+.Add{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 30%;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(112, 112, 112);
+    border: none;
+}
+.Add:hover{
+    background-color: rgb(238, 238, 238);
+    color: rgb(120, 120, 120);
+}
