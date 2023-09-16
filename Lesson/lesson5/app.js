@@ -1,7 +1,6 @@
 
 
-const login = document.getElementById("form-login");
-login.addEventListener("submit", function() {
+document.addEventListener("submit", function ()    {
     // var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
     if(username === 'username' && password === "password"){
