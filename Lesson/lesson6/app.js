@@ -13,4 +13,4 @@ async function test(){
 test();
 
 const response = fetch('http://jsonplaceholder.typicode.com/todos/1');
-const dât = response.json();
+const data = response.json();
