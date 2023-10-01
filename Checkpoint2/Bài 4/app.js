@@ -15,7 +15,7 @@ const data = async() =>{
     
             id.textContent = i.id;
             author.textContent = i.author;
-            img.setAttribute("src", i.url)
+            img.setAttribute("src", i.download_url)
     
     
             let container = document.createElement("div")
