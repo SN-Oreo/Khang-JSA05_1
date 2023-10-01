@@ -5,4 +5,12 @@
 .img{
     width: 200px;
     height: 200px;
+
+}
+.bottom{
+    display: flex;
+    flex-wrap: wrap;
+}
+.noname{
+    margin: 20px;
 }

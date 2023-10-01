@@ -7,19 +7,17 @@ const data = async() =>{
 
         for(let i of data){
             const div = document.getElementById("bottom")
-            let id = document.createElement("h2");
             let author = document.createElement("h2");
             let img = document.createElement("img");
             img.classList.add("img")
     
     
-            id.textContent = i.id;
             author.textContent = i.author;
             img.setAttribute("src", i.download_url)
     
     
             let container = document.createElement("div")
-            container.appendChild(id);
+            container.classList.add("noname")
             container.appendChild(author);
             container.appendChild(img);
     
@@ -31,4 +29,4 @@ const data = async() =>{
     catch(error){
     }
 }
-data()   
+data()
