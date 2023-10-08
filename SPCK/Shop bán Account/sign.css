@@ -1,0 +1,67 @@
+/* bottom */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#bottom{
+    width: 500px;
+    height: 650px;
+    text-align: center;
+    margin: 80px auto 0;
+    padding: 10px;
+    border: 10px solid rgb(31, 30, 30);
+    border-radius: 30px;
+    background-color: rgb(58, 56, 56);
+}
+#signup-name{
+    color:#1a73e8;
+    margin: 20px;
+}
+.input-signup{
+    position: relative;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.input-signup input{
+    width: 300px;
+    height: 30px;
+}
+.input-signup h5{
+    margin-left: 100px;
+    text-align: start;
+    color: rgb(211, 0, 0);
+    opacity: 0;
+}
+.nhap{
+    left: 95px;
+    position: absolute;
+}
+#Loi, #Loi1, #Loi2, #Loi3{
+    position: relative;
+    left: 95px;
+    width: 304px;
+    height: 30px;
+    border: 3px rgb(211, 0, 0) solid;
+    opacity: 0;
+    pointer-events: none;
+}
+#signup-button{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    font-size: 20px;
+    width: 180px;
+    height: 40px;
+    background: #1a73e8;
+    color: white;
+    margin: 10px 0;
+}
+#signup-button:hover{
+    cursor: pointer;
+    width: 210px;
+    height: 45px;
+}
+.input-name{
+    margin-left: -32%;
+}
+#have-account{
+    color:#589bf3;
+}

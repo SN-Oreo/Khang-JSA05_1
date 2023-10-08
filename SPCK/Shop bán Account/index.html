@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Shop bán đồ lỏ</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="chung.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="avatar.css">
+</head>
+<body>
+    <script src="index.js"></script>
+    <script src="more.js"></script>
+    
+
+    <!-- top -->
+    <div id="full">
+        <div id="top">
+            <div id="bla">
+                <a href="./index.html" id="home" class="top-item"><ion-icon name="home"></ion-icon> Home</a>
+                <a href="./giohang.html" id="giohang" class="top-item"><ion-icon name="cart"></ion-icon> Giỏ Hàng</a>
+                <label id="search"><ion-icon name="search"></ion-icon> Tìm Kiếm</label>
+                <input type="text" id="src">
+            </div>
+            <div id="join">
+                <a href="./sign.html" id="signup" class="join-item">Sign Up</a>
+                <label for="" id="no1">/</label>
+                <a href="./Login.html" id="login" class="join-item">Login</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- bottom -->
+    <div id="bottom">
+        <div id="bottom1">
+            <div id="bottom-napthe">
+                <div>
+                    <div id="name">
+                        <input type="button" class="name" onclick="onNapThe()" value="Nạp thẻ">
+                        <input type="button" class="name" onclick="onBxh()" value="BXH">
+                        <input type="button" class="name" onclick="onPhanQua()" value="Phần quà">
+                    </div>
+                    <!-- form napthe -->
+                    <div id="form-napthe">
+                        <div class="bottom-napthe-item">
+                            <h2>Nhà mạng:</h2>
+                        <select>
+                            <option value="">Chọn nhà mạng</option>
+                            <option value="">Viettel</option>
+                            <option value="">Mobiphone</option>
+                            <option value="">Vinaphone</option>
+                            <!-- <option value="">Garena</option> -->
+                        </select>
+                        </div>
+                        <div class="bottom-napthe-item">
+                            <h2>Mệnh giá:</h2>
+                            <select>
+                                <option value="">Chọn mệnh giá</option>
+                                <option value="">10.000</option>
+                                <option value="">20.000</option>
+                                <option value="">50.000</option>
+                                <option value="">100.000</option>
+                                <option value="">200.000</option>
+                                <option value="">500.000</option>
+                            </select>
+                        </div>
+                        <div class="bottom-napthe-item">
+                            <h2>Mã thẻ:</h2>
+                            <input class="ms" type="text" placeholder="Nhập mã thẻ"><br>
+                        </div>
+                        <div class="bottom-napthe-item">
+                            <h2>Số seri:</h2>
+                            <input class="ms" type="text" placeholder="Nhập số seri">
+                        </div>
+                        <div class="bottom-napthe-item">
+                            <input type="button" id="input-button" value="Nhập">
+                        </div>
+                    </div>
+                    <!-- form bxh -->
+                    <div id="form-bxh">
+                        <div class="bxh-name">
+                            <h1 >Top nạp thẻ tháng 7 này</h1>
+                        </div>
+                        <div class="bxh-item">
+                            <div class="top"> <h2>Top 1:</h2> </div>
+                            <div class="avatar a1"></div>
+                            <h2 class="top-name">Admin </h2>
+                            <h2 class="tien">1.000.000.000 đồng</h2></div>
+                        <div class="bxh-item">
+                            <div class="top"> <h2>Top 2:</h2> </div>
+                            <div class="avatar a2"></div>
+                            <h2 class="top-name">Khang </h2>
+                            <div class="tien"><h2 >300.000.000 đồng</h2></div>
+                        </div>
+                        <div class="bxh-item">
+                            <div class="top"> <h2>Top 3:</h2> </div>
+                            <div class="avatar a3"></div>
+                            <h2 class="top-name">Gia Bảo </h2>
+                            <div class="tien"><h2 >70.000.000 đồng</h2></div>
+                        </div>
+                        <div class="bxh-item">
+                            <div class="top"> <h2>Top 4:</h2> </div>
+                            <div class="avatar a4"></div>
+                            <h2 class="top-name">Hacker </h2>
+                            <div class="tien"><h2 >50.000.000 đồng</h2></div>
+                        </div>
+                        <div class="bxh-item">
+                            <div class="top"> <h2>Top 5:</h2> </div>
+                            <div class="avatar a5"></div>
+                            <h2 class="top-name">Soico21 </h2>
+                            <div class="tien"><h2 >31.500.000 đồng</h2></div>
+                        </div>
+                        <div class="bxh-item">
+                            <div class="top"> <h2>Top 6:</h2> </div>
+                            <div class="avatar a6"></div>
+                            <h2 class="top-name">SN_Oreo </h2>
+                            <div class="tien"><h2 >28.900.000 đồng</h2></div>
+                        </div>
+                        <div class="bxh-item">
+                            <div class="top"> <h2>Top 7:</h2> </div>
+                            <div class="avatar a7"></div>
+                            <h2 class="top-name">Phương </h2>
+                            <div class="tien"><h2 >25.000.000 đồng</h2></div>
+                        </div>
+                        <div class="bxh-item">
+                            <div class="top"> <h2>Top 8:</h2> </div>
+                            <div class="avatar a8"></div>
+                            <h2 class="top-name">Sadboiz </h2>
+                            <div class="tien"><h2 >24.500.000 đồng</h2></div>
+                        </div>
+                        <div class="bxh-item">
+                            <div class="top"> <h2>Top 9:</h2> </div>
+                            <div class="avatar a9"></div>
+                            <h2 class="top-name">Viee </h2>
+                            <div class="tien"><h2 >20.000.000 đồng</h2></div>
+                        </div>
+                        <div class="bxh-item">
+                            <div class="top"> <h2>Top 10:</h2> </div>
+                            <div class="avatar a10"></div>
+                            <h2 class="top-name">Florentino </h2>
+                            <div class="tien"><h2 >17.900.000 đồng</h2></div>
+                        </div>
+                        <div class="bxh-item">
+                            <div class="avatar a11-100"></div>
+                            <div class="avatar a11-100"></div>
+                            <div class="avatar a11-100"></div>
+                            <div class="avatar-number"><h3>+87</h3></div>
+                            <h2 class="top-name">...</h2>
+                            
+                        </div>
+                    </div>
+                    <!-- form phan qua -->
+                    <div id="form-phanqua">
+                        <div class="phanqua-item">
+                            <h1>Quà Khai Trương</h1>
+                        </div>
+                        <div class="phanqua-item">
+                            <h2 class="phanqua-item-top">Top 1:</h2>
+                            <h2><small>+</small> 10.000.000 VNĐ</h2>
+                            <h2><small>+</small> code giảm giá 80% với 10 đơn hàng tiếp theo</h2>
+                            <h2><small>+</small> freeship trọn đời</h2>
+                            <h2><small>+</small> 5 code miễn phí với mọi đơn hàng</h2>
+                        </div>
+                        <div class="phanqua-item">
+                            <h2 class="phanqua-item-top">Top 2:</h2>
+                            <h2><small>+</small> 8.000.000 VNĐ </h2>
+                            <h2><small>+</small> code giảm giá 50% với 5 đơn hàng tiếp theo</h2>
+                            <h2><small>+</small> freeship 5 năm</h2>
+                            <h2><small>+</small> 1 code miễn phí với mọi đơn hàng dưới 10.000.000</h2>
+                        </div>
+                        <div class="phanqua-item">
+                            <h2 class="phanqua-item-top">Top 3:</h2>
+                            <h2><small>+</small> 5.000.000 VNĐ</h2>
+                            <h2><small>+</small> code giảm giá 30% với 5 đơn hàng tiếp theo</h2>
+                        </div>
+                        <div class="phanqua-item">
+                            <h2 class="phanqua-item-top">Top 4:</h2>
+                            <h2><small>+</small> 3.000.000 VNĐ</h2>
+                        </div>
+                        <div class="phanqua-item">
+                            <h2 class="phanqua-item-top">Top 5 - 100:</h2>
+                            <h2><small>+</small> Cái nịt</h2>
+                        </div>
+                        <div class="phanqua-item">
+                            <h2 class="phanqua-item-top">*Lưu ý*</h2>
+                            <h3>- Phần thưởng sẽ được phát vào ngày cuối cùng trong tháng</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="bottom-img">
+                <img src="https://lvgames.net/lqm/wp-content/uploads/2020/10/hinh_nen_florentino_giam_sat_tinh_he_download.jpg" width="100%"/>
+            </div>
+        </div>
+    </div>
+
+    <!-- bottom account -->
+
+    <div id="bottom-account">
+
+        
+    </div>
+    <div id="them">
+
+    </div>
+    <!-- end -->
+    <footer id="end">
+            <div id="end1">
+                <div>
+                    <h2>Thông tin shop</h2>
+                </div>
+                <div>
+                    <h2>dịch vụ chăm sóc khách hàng</h2>
+                </div>
+                <div>
+                    <h2>hotline</h2>
+                </div>
+            </div>
+    </footer>
+    <script src="data.js"></script>
+</body>
+</html>

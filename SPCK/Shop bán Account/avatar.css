@@ -1,0 +1,72 @@
+.avatar {
+    background-color: rgb(228, 228, 228);
+    margin: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.a1 {
+    background-image: url(./img_avatar/avatar.jpg);
+    background-size: cover;
+}
+.a2 {
+    background-image: url(./img_avatar/avatar1.jpg);
+    background-size: cover;
+}
+.a3 {
+    background-image: url(./img_avatar/avatar2.png);
+    background-size: cover;
+}
+.a4 {
+    background-image: url(./img_avatar/avatar3.jpg);
+    background-size: cover;
+}
+.a5 {
+    background-image: url(./img_avatar/soico21.png);
+    background-size: cover;
+}
+.a6 {
+    background-image: url(./img_avatar/SN_Oreo.png);
+    background-size: cover;
+}
+.a7 {
+    background-image: url(./img_avatar/avatar7.jpg);
+    background-size: cover;
+}
+.a8 {
+    background-image: url(./img_avatar/sadboiz.jpg);
+    background-size: cover;
+}
+.a9 {
+    background-image: url(./img_avatar/pvy.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.a10 {
+    background-image: url(./img_avatar/florentino.jpg);
+    background-size:cover;
+}
+.a11-100 {
+    background-image: url(./img_avatar/avatar7.jpg);
+    background-size: cover;
+    border: 2px solid white;
+}
+.a11-100:nth-child(2) {
+    margin: -30px;
+}
+.avatar-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(160, 160, 160);
+    margin: 0 10px 0 -30px;
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    cursor: pointer;
+}
+.avatar-number:hover {
+    background-color: rgb(102, 102, 102);
+}

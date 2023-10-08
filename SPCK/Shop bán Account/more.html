@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="chung.css">
+    <link rel="stylesheet" href="more.css">
+</head>
+<body>
+    <script src="more.js"></script>
+
+    <!-- top -->
+    <div id="full">
+        <div id="top">
+            <div id="bla">
+                <a href="./index.html" id="home" class="top-item"><ion-icon name="home"></ion-icon> Home</a>
+                <a href="./giohang.html" id="giohang" class="top-item"><ion-icon name="cart"></ion-icon> Giỏ Hàng</a>
+                <label id="search"><ion-icon name="search"></ion-icon> Tìm Kiếm</label>
+                <input type="text" id="src">
+            </div>
+            <div id="join">
+                <a href="./sign.html" id="signup" class="join-item">Sign Up</a>
+                <label for="" id="no1">/</label>
+                <a href="./Login.html" id="login" class="join-item">Login</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="koten">
+            <div class="ten">
+                <h1>Đồ chơi</h1>
+            </div>
+            <div class="pic">
+                <img src="./img hàng/bien.jpg">
+            </div>
+            <div class="id">
+                <h1>ID: ######</h1>
+            </div>
+            <div class="price">
+                <h2>Giá hàng: 100.000 VNĐ</h2>
+            </div>
+            <div class="thongtin">
+                <h2>Thông Tin sản phẩm</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure rerum molestias aliquid, nostrum, labore facilis, suscipit consequuntur architecto nisi perspiciatis exercitationem magnam minus dolore enim? Qui eius deserunt alias porro!</p>
+            </div>
+            
+            <button class="btn" onclick="dathang()"><h1>Mua ngay</h1></button>
+            <div id="buy">
+                <div class="number buy-item" >
+                    <h2>Số lượng hàng muốn mua:</h2>
+                    <input type="number" id="number" value="1">
+                </div>
+                <div class="giam-gia buy-item">
+                    <h2>nhập mã giảm giá</h2>
+                    <input type="text" id="code">
+                </div>
+                <div class="tong buy-item">
+                    <button onclick="ok()">Ok</button>
+                    <h4 id="soluong">Số Lượng:</h4>
+                    <h4 id="giamgia">giảm giá:</h4>
+                    <h3 id="tong">Tổng:</h3>
+                </div>
+                <button><h1>Thanh Toán</h1></button>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+    <div id="end">
+        <div id="end1">
+            <div>
+                <h2>Thông tin shop</h2>
+            </div>
+            <div>
+                <h2>dịch vụ chăm sóc khách hàng</h2>
+            </div>
+            <div>
+                <h2>hotline</h2>
+            </div>
+        </div>
+</div>
+</body>
+</html>

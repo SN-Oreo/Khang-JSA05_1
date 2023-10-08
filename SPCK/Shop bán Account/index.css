@@ -1,0 +1,239 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* phần bottom */
+
+/* phần bottom1 */
+#bottom{
+    margin: 100px auto;
+}
+#bottom1{
+    display: flex;
+    justify-content: center;
+}
+#bottom-img img{
+    width: 900px;
+    border: 10px solid black;
+    border-radius: 30px;
+}
+#bottom-napthe{
+    margin-right: 10px;
+    border: 10px solid rgb(31, 30, 30);
+    border-radius: 30px;
+    width: 530px;
+    height: 500px;
+    background-color: rgb(58, 56, 56);
+}
+#name{
+    display: flex;
+    border: 3px solid rgb(31, 30, 30);
+}
+.name{
+    flex-grow: 1;
+    border: 2px solid rgb(31, 30, 30);
+    background: none;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 15px;
+    color: #61a6ff;
+    cursor: pointer;
+}
+.name:hover{
+    background: rgb(124, 124, 124);
+    color: rgb(0, 110, 255);
+}
+.bottom-napthe-item h2{
+    margin-left: 30px;
+    flex-grow: 1;
+}
+.bottom-napthe-item select{
+    color:rgb(161, 161, 161);
+    outline: none;
+    border: none;
+    background: none;
+    font-weight: 700;
+    font-size: larger;
+    padding: 0 10px;
+    flex-grow: 1;
+    margin-right: 20px;
+}
+.bottom-napthe-item select:hover{
+    color: black;
+    background: gray;
+    cursor: pointer;
+}
+.bottom-napthe-item{
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+    margin-top: 20px;
+    font-size: larger;
+    color: yellow;
+    
+}
+#input-button{
+    width: 200px;
+    height: 50px;
+    font-size:xx-large;
+    border: 5px solid;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#input-button:hover{
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+}
+
+.bottom-napthe-item input{
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 2px solid;
+    font-weight: 700;
+    font-size: large;
+    margin-right: 20px;
+}
+.ms{
+    color:rgb(168, 168, 168);
+}
+.ms:focus::placeholder{
+    opacity: 0;
+}
+.ms:focus{
+    color:white;
+}
+
+/*  BXH BXH BXH BXH BXH BXH BXH
+
+    BXH BXH BXH BXH BXH BXH BXH*/
+#form-bxh{
+    height: 425px;
+    overflow-y: scroll;
+    display: none;
+}
+.bxh-item{
+    position: relative;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    border-top: 4px solid rgb(31, 30, 30);
+}
+.top{
+    margin-left: 10px;
+    color: red;
+}
+.bxh-name{
+    text-align: center;
+    padding: 10px;
+    color: yellow;
+}
+.tien{
+    position: absolute;
+    right: 10px;
+    color: rgb(21, 255, 0);
+}
+.top-name{
+    margin-right: 10px;
+    color: cyan;
+}
+/*  PHAN QUA PHAN QUA
+
+    PHAN QUA PHAN QUA */
+#form-phanqua{
+    display: none;
+    height: 425px;
+    overflow-y:auto;
+}
+.phanqua-item{
+    display:block;
+    margin: 0 20px;
+}
+.phanqua-item .phanqua-item-top{
+    color: red;
+    margin-top: 25px;
+}
+.phanqua-item h3{
+    color: #9e2222;
+}
+.phanqua-item h2{
+    color: rgb(21, 255, 0);
+}
+.phanqua-item h1{
+    margin: 20px 0;
+    text-align: center;
+    color: #fa5c5c;
+}
+.phanqua-item small{
+    color: yellow;
+}
+
+/* ht phần bottom1 */
+
+/* phần bottom2 */
+#bottom-account{
+    margin: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card{
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;  
+    border: 10px solid yellow;
+    border-radius: 10px;
+    background-color: rgba(21, 255, 0, 0.63);
+    margin: 30px;
+    width: calc(33% - 80px);
+}
+.card button{
+    width: 50%;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    border: 3px solid black;
+    border-radius: 8px;
+    background-color: gray;
+    margin: 5px 0 15px 0;
+}
+.card button:hover{
+    border: gray solid;
+    background: white;
+    color: black;
+}
+.card h2{
+    margin: 8px 0;
+}
+.account-img{
+
+    margin-top: 10px;
+    width: 80%;
+    border: 8px rgb(50, 231, 255) solid;
+    border-radius: 10px;
+}
+
+/* thêm */
+#them{
+    height: 100px;
+}
+
+@media (max-width: 1500px) {
+    #bottom1{
+        justify-content: center;
+    }
+    #bottom-img img{
+        display: none;
+    }
+}
+@media (max-width: 1150px){
+    .card{
+        width: calc(40% - 20px);
+    }
+}
+@media (max-width: 767px) {
+    .card{
+        width: 75%;
+    }
+}
