@@ -213,6 +213,8 @@ let data = {
     ]
 }
 for(let i of data.account){
+
+//Phần code thẻ hàng
     let card = document.createElement("div")
     card.classList.add("card")
 
@@ -235,6 +237,39 @@ for(let i of data.account){
     price.classList.add("account-price")
     price.innerText = i.prices + " VNĐ"
     card.appendChild(price)
+
+    let button = document.createElement("button")
+    button.classList.add("account-button")
+    button.innerHTML = "Xem thêm"
+    card.appendChild(button)
+
+//Phần code modal
+    let modal = document.createElement("div")
+    modal.classList.add("modal")
+    
+    let modalBackDrop = document.createElement("div")
+    modalBackDrop.classList.add("modal-backdrop")
+
+    let modalContent = document.createElement("div")
+    modalContent.classList.add("modal-content")
+
+    let modalTop = document.createElement("div")
+    modalTop.classList.add("modal-top")
+
+    let modalBottom = document.createElement("div")
+    modalBottom.classList.add("modal-bottom")
+
+    let modalOpen = document.createElement("div")
+    modalOpen.classList.add("modal-open")
+
+    //ghép code nè=)
+    modalContent.appendChild(modalTop)
+    modalContent.appendChild(modalBottom)
+    modalContent.appendChild(modalOpen)
+    modalBackDrop.appendChild(modalContent)
+    modal.appendChild(modalBackDrop)
+    
+
 
     document.getElementById("bottom-account").appendChild(card)
 }

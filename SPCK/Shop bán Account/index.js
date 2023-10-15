@@ -14,4 +14,6 @@ function onPhanQua(){
     document.getElementById('form-bxh').style.display ="none"
     document.getElementById('form-phanqua').style.display="block"
 }
-
+function reset(){
+    w
+}
