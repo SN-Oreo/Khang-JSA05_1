@@ -15,5 +15,14 @@ function onPhanQua(){
     document.getElementById('form-phanqua').style.display="block"
 }
 function reset(){
-    w
+    
+}
+let cancel = document.querySelectorAll(".modal-cancel")
+for (let index = 0; index < cancel.length; index++) {
+    const element = cancel[index];
+    element.addEventListener("click", function(){
+        document.querySelector(".modal").classList.remove("show")
+
+
+    })
 }

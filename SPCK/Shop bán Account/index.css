@@ -171,7 +171,7 @@ body{
 
 /* ht phần bottom1 */
 
-/* phần bottom2 */
+/* phần bottom-account */
 #bottom-account{
     margin: 70px;
     display: flex;
@@ -197,6 +197,7 @@ body{
     border-radius: 8px;
     background-color: gray;
     margin: 5px 0 15px 0;
+    padding: 5px 0;
 }
 .card button:hover{
     border: gray solid;
@@ -209,8 +210,8 @@ body{
 .account-img{
 
     margin-top: 10px;
-    width: 80%;
-    border: 8px rgb(50, 231, 255) solid;
+    width: 90%;
+    border: 5px rgb(50, 231, 255) solid;
     border-radius: 10px;
 }
 

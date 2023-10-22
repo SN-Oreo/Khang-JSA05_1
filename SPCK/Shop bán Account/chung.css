@@ -24,7 +24,7 @@ body{
 }
 /* phần top */
 #top{
-    z-index: 100;
+    z-index: 5;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.74);
     display: flex;

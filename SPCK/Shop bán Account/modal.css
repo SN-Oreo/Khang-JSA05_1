@@ -1,0 +1,42 @@
+
+.modal{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    transition: all 300ms linear;
+    visibility: hidden;
+    opacity: 0;
+}
+.modal-backdrop{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.41);
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.modal-content{
+    background-color: rgb(58, 56, 56);
+    border: 10px solid rgb(31, 30, 30);
+    border-radius: 20px;
+    width: 50%;
+    height: 90%;
+}
+.show{
+    visibility: visible;
+    opacity: 1;
+}
+.card .modal-add, .card .modal-cancel{
+    margin: 10px;
+
+}
+.modal-img{
+    width: 60%;
+    margin: 20px;
+}
