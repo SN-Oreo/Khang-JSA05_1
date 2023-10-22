@@ -6,72 +6,57 @@ function signup(){
 
     // errol:
     // 0:
-    const Errol = document.getElementById('Loi')
-    const errol = document.getElementById('loi')
-    // 1
-    const Errol1 = document.getElementById('Loi1')
-    const errol1 = document.getElementById('loi1')
-    // 2
-    const Errol2 = document.getElementById('Loi2')
-    const errol2 = document.getElementById('loi2')
-    // 3
-    const Errol3 = document.getElementById('Loi3')
-    const errol3 = document.getElementById('loi3')
+    let errolUsername = document.querySelector(".red-username")
+    let errolEmail = document.querySelector(".red-email")
+    let errolPassword = document.querySelector(".red-password")
+    let errolCPassword = document.querySelector(".red-cpassword")
 
     //check
 
     if(Username=="" || Email=="" || Password=="" || Confirm_password==""){
         if(Username==""){
-            Errol.style.opacity="1"
-            errol.style.opacity="1"
+            errolUsername.classList.remove("hide-errol")
         }else{
-            Errol.style.opacity="0"
-            errol.style.opacity="0"
+            errolUsername.classList.add("hide-errol")
         }
         if(Email==""){
-            Errol1.style.opacity="1"
-            errol1.style.opacity="1"
+            errolEmail.classList.remove("hide-errol")
         }else{
-            Errol1.style.opacity="0"
-            errol1.style.opacity="0"
+            errolEmail.classList.add("hide-errol")
         }
         if(Password==""){
-            Errol2.style.opacity="1"
-            errol2.style.opacity="1"
+            errolPassword.classList.remove("hide-errol")
         }else{
-            Errol2.style.opacity="0"
-            errol2.style.opacity="0"
+            errolPassword.classList.add("hide-errol")
         }
         if(Confirm_password==""){
-            Errol3.style.opacity="1"
-            errol3.style.opacity="1"
+            errolCPassword.classList.remove("hide-errol")
+
         }else{
-            Errol3.style.opacity="0"
-            errol3.style.opacity="0"
+            errolCPassword.classList.add("hide-errol")
+
         }
     }else{
-        if(!Username==""){
-            Errol.style.opacity="0"
-            errol.style.opacity="0"
-        }
-        if(!Email==""){
-            Errol1.style.opacity="0"
-            errol1.style.opacity="0"
-        }
-        if(!Password==""){
-            Errol2.style.opacity="0"
-            errol2.style.opacity="0"
-        }
-        if(!Confirm_password==""){
-            Errol3.style.opacity="0"
-            errol3.style.opacity="0"
+        if(!Username=="" || !Email=="" || !Password=="" || !Confirm_password==""){
+            errolUsername.classList.add("hide-errol")
+            errolEmail.classList.add("hide-errol")
+            errolPassword.classList.add("hide-errol")
+            errolCPassword.classList.add("hide-errol")
+            
         }
         if(Password === Confirm_password){
+            localStorage.setItem("username", Username)
+            localStorage.setItem("password", Password)
+            localStorage.setItem("email", Email)
             alert("Đăng ký thành công")
-            window.location.href="Login.html"
+            console.log(localStorage.getItem(Username))
+            // location.href="Login.html"
         }else{
             // Mật khẩu nhập lại không khớp
         }
+        
+
+
     }
 
     

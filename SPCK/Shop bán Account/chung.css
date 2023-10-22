@@ -81,6 +81,12 @@ body{
     border: 3px solid blue;
     border-radius: 10px;
 }
+.logged{
+    
+}
+.hide{
+    display: none;
+}
 /* end */
 /* #end{
     margin-top: 500px;

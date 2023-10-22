@@ -1,3 +1,4 @@
+
 function onNapThe(){
     document.getElementById('form-napthe').style.display ="block"
     document.getElementById('form-bxh').style.display ="none"
@@ -17,12 +18,4 @@ function onPhanQua(){
 function reset(){
     
 }
-let cancel = document.querySelectorAll(".modal-cancel")
-for (let index = 0; index < cancel.length; index++) {
-    const element = cancel[index];
-    element.addEventListener("click", function(){
-        document.querySelector(".modal").classList.remove("show")
 
-
-    })
-}
