@@ -6,7 +6,7 @@ function login(){
     let getUsername = localStorage.getItem("username")
     if(Username==getUsername && Password==getPassword){
         window.location.href='index.html'
-        window.logged = true
+        localStorage.setItem("logged", true)
     }else{
         document.getElementById('Loi').style.opacity ="1"
         document.getElementById('loi').style.opacity ="1"

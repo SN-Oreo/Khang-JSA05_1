@@ -279,6 +279,8 @@ for(let i of data.account){
 
     let btnAdd = document.createElement("button")
     btnAdd.classList.add("modal-add")
+    btnAdd.classList.add("modal-add" + i.id)
+
     btnAdd.innerHTML = "Thêm vào giỏ hàng"
 
     let btnCancel = document.createElement("button")
@@ -307,10 +309,19 @@ for(let i of data.account){
         }
         
         let cancel = document.getElementById("modal-cancel")
-            cancel.addEventListener("click", unshow)
-            function unshow(){
+        cancel.addEventListener("click", unshow)
+        function unshow(){
             document.querySelector(".modal").classList.remove("show")
         }
 
+        let themVaoGio = document.querySelector(".modal-add" + i.id)
+        themVaoGio.addEventListener("click", addAccount)
+        function addAccount(){
+            localStorage.setItem("store-img", i.image)
+            localStorage.setItem("store-prices", i.prices)
+            localStorage.setItem("store-id", i.id)
+            localStorage.setItem("store-rank", i.rank)
+            alert("đã thêm vào giỏ hàng!")
+        }
 }
 

@@ -26,8 +26,11 @@ html{
 #bar-dathanhtoan{
     opacity: 0;
 }
-#bar-giaohang{
-    opacity: 0;
+#in-giohang{
+   display: none;
+}
+#in-dathanhtoan{
+    display: none;
 }
 .long-bar{
     height: calc(100% - 80px);
@@ -39,7 +42,7 @@ html{
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 33%;
+    height: 50%;
     background-color: rgba(61, 61, 61);
     color: rgb(183, 244, 255);
     cursor: pointer;
@@ -48,6 +51,7 @@ html{
     background-color: rgb(197, 197, 197);
     color: rgb(80, 80, 80);
 }
+
 .big{
     overflow-y: hidden;
     position: absolute;
@@ -57,15 +61,45 @@ html{
     width: calc(100% - 220px);
     
 }
-#in-giohang{
-    display: none;
-    background-color: red;
+/* giohang */
+
+.account h2, h3{
+    color: rgb(0, 0, 0);
 }
-#in-dathanhtoan{
-    display: none;
-    background-color: blue;
+.account{
+    display: flex;
+    background-color: gray;
 }
-#in-giaohang{
-    display: none;
-    background-color: yellow;
+.account-img{
+    margin: 10px;
+    width: 30%;
+}
+.account-id{
+    color: rgb(0, 0, 0);
+}
+.accept{
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    right: 10px;
+}
+.accept:hover{
+    background-color: rgb(138, 138, 138);
+    color: rgb(237, 237, 237);
+}
+
+
+/* dathanhtoan */
+.a-account{
+    display: flex;
+    background-color: gray;
+}
+.a-account-img{
+    margin: 10px;
+    width: 30%;
+}
+.a-account-id{
+    color: rgb(0, 0, 0);
 }

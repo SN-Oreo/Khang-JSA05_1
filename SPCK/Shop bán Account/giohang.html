@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="giohang.css">
 </head>
 <body>
-    <script src="giohang.js"></script>
 
     <!-- top -->
     <div id="full">
@@ -30,6 +29,14 @@
                 <label for="" id="no1">/</label>
                 <a href="./Login.html" id="login" class="join-item">Login</a>
             </div>
+            <div class="logged hide">
+                <div class="logged-item myn">
+                    <div class="my-name"></div>
+                </div>
+                <div class="logged-item mya">
+                    <div class="my-avatar"></div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -38,12 +45,11 @@
         <div class="bar">
             <h1 id="bar-giohang">Giỏ hàng</h1>
             <h1 id="bar-dathanhtoan">Đã thanh toán</h1>
-            <h1 id="bar-giaohang">Giao hàng</h1>
         </div>
         <div>
-            <div class="big" id="in-giohang"></div>
+            <div class="big" id="in-giohang">
+            </div>
             <div class="big" id="in-dathanhtoan"></div>
-            <div class="big" id="in-giaohang"></div>
         </div>
         <div class="long-bar">
             <div class="long-bar-item" id="item1" onclick="gioHang()">
@@ -51,9 +57,6 @@
             </div>
             <div class="long-bar-item" id="item2" onclick="daThanhToan()">
                 <h1>Đã thanh toán</h1>
-            </div>
-            <div class="long-bar-item" id="item3" onclick="giaoHang()">
-                <h1>Giao hàng</h1>
             </div>
         </div>
         
@@ -73,5 +76,8 @@
                 </div>
             </div>
     </div>
+
+        <script src="giohang.js"></script>
+        <script src="logged.js"></script>
 </body>
 </html>
