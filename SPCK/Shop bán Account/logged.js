@@ -12,3 +12,17 @@ function app(){
 }
 app()
 
+function hide(){
+    document.querySelector(".h3-money").innerHTML = "money: " + localStorage.getItem("money") + " VNĐ"
+
+    
+}
+hide()
+
+
+//log out
+
+document.querySelector(".log-out").addEventListener("click", logOut)
+function logOut(){
+    localStorage.setItem("logged", false)
+}

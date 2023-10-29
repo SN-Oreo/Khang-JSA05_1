@@ -317,11 +317,16 @@ for(let i of data.account){
         let themVaoGio = document.querySelector(".modal-add" + i.id)
         themVaoGio.addEventListener("click", addAccount)
         function addAccount(){
-            localStorage.setItem("store-img", i.image)
-            localStorage.setItem("store-prices", i.prices)
-            localStorage.setItem("store-id", i.id)
-            localStorage.setItem("store-rank", i.rank)
-            alert("đã thêm vào giỏ hàng!")
+            if(localStorage.getItem("money")>= i.prices){
+                localStorage.setItem("store-img", i.image)
+                localStorage.setItem("store-prices", i.prices)
+                localStorage.setItem("store-id", i.id)
+                localStorage.setItem("store-rank", i.rank)
+                alert("Đã thêm vào giỏ hàng!")
+            }else{
+                alert("Tài khoản của bạn không đủ tiền")
+            }
+            
         }
 }
 

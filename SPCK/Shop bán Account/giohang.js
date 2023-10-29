@@ -71,8 +71,6 @@ function bigGioHang(){
         box.appendChild(rank)
         box.appendChild(price)
     
-    }else if(localStorage.getItem("store-id") == ""){
-        document.querySelector(".account").style.display = "none"
     }
 
 
@@ -82,21 +80,10 @@ function bigGioHang(){
 }
 bigGioHang()
 
-let accept = document.querySelector(".accept")
-accept.addEventListener("click", setItem)
-function setItem(){
 
-    localStorage.setItem("add-img", localStorage.getItem("store-img"))
-    localStorage.setItem("add-id", localStorage.getItem("store-id"))
-    localStorage.setItem("add-rank", localStorage.getItem("store-rank"))
-    localStorage.setItem("store-img", "")
-    localStorage.setItem("store-id", "")
-    localStorage.setItem("store-rank", "")
-    localStorage.setItem("store-prices", "")
-    
-}
 function bigDaThanhToan(){
-    let a_account = document.createElement("div")
+    if(!localStorage.getItem("add-id") == ""){
+        let a_account = document.createElement("div")
     a_account.classList.add("account")
     
     a_box = document.createElement("div")
@@ -111,12 +98,37 @@ function bigDaThanhToan(){
     a_id.innerText = "ID: " + localStorage.getItem("add-id")
 
     let a_mk = document.createElement("h2")
-    a_mk.innerHTML = 
+    a_mk.innerHTML ="Mật khẩu" + "*******"
+
+    let a_tk = document.createElement("h2")
+    a_tk.innerHTML ="Tài khoản" + "*******"
 
     a_account.appendChild(a_img)
     a_account.appendChild(a_box)
     a_box.appendChild(a_id)
+    a_box.appendChild(a_tk)
+    a_box.appendChild(a_mk)
+    
 
     document.getElementById("in-dathanhtoan").appendChild(a_account)
+    }
+    
 }
 bigDaThanhToan()
+
+let accept = document.querySelector(".accept")
+accept.addEventListener("click", setItem)
+function setItem(){
+    if(!localStorage.getItem("store-id") == ""){
+        accept.style.display="none"
+    localStorage.setItem("add-img", localStorage.getItem("store-img"))
+    localStorage.setItem("add-id", localStorage.getItem("store-id"))
+    localStorage.setItem("add-rank", localStorage.getItem("store-rank"))
+    localStorage.setItem("store-img", "")
+    localStorage.setItem("store-id", "")
+    localStorage.setItem("store-rank", "")
+    localStorage.setItem("store-prices", "")
+    }
+    
+
+}

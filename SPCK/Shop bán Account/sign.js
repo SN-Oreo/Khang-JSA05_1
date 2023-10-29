@@ -48,8 +48,9 @@ function signup(){
             localStorage.setItem("username", Username)
             localStorage.setItem("password", Password)
             localStorage.setItem("email", Email)
+            localStorage.setItem("money", 0)
             alert("Đăng ký thành công")
-            console.log(localStorage.getItem(Username))
+            
             // location.href="Login.html"
         }else{
             // Mật khẩu nhập lại không khớp

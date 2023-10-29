@@ -76,6 +76,7 @@ body{
     color: rgb(255, 255, 255);
 }
 #join{
+    margin: 15px;
     padding: 4px;
     flex-shrink: 0;
     border: 3px solid blue;
@@ -96,6 +97,19 @@ body{
 .logged:hover{
     background-color: rgb(73, 73, 73);
     height: 300px;
+}
+.my-hide{
+    width: 200px;
+    height: 1px;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 65px;
+    transition: all 200ms linear;
+}
+.logged:hover>.my-hide{
+    opacity: 1;
+    height: 230px;
 }
 .my-avatar{
     margin: 10px;
@@ -118,6 +132,35 @@ body{
     right: 80px;
     top: 20px;
 }
+
+
+.my-flex{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+.hide-item{
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    transition: all 200ms linear;
+
+}
+.hide-item:hover{
+    background-color: gray;
+}
+.my-money{
+    padding: 20px 0;
+    color: rgb(55, 255, 0);
+
+}
+.log-out{
+    color: red;
+
+}
+
 .hide{
     display: none;
 }
