@@ -92,6 +92,7 @@ body{
     right: 5px;
     border-radius: 20px;
     transition: all 200ms linear;
+    cursor: default;
 
 }
 .logged:hover{
@@ -146,7 +147,7 @@ body{
     padding: 10px 0;
     width: 100%;
     transition: all 200ms linear;
-
+    cursor: pointer;
 }
 .hide-item:hover{
     background-color: gray;

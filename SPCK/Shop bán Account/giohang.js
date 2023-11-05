@@ -129,6 +129,6 @@ function setItem(){
     localStorage.setItem("store-rank", "")
     localStorage.setItem("store-prices", "")
     }
-    
+    location.href = "giohang.html"
 
 }

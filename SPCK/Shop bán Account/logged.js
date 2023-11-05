@@ -1,6 +1,5 @@
 function app(){
     if(localStorage.getItem("logged") =="true"){
-        console.log("đ")
         document.getElementById("join").classList.add("hide")
         document.querySelector(".logged").classList.remove("hide")
 
@@ -25,4 +24,10 @@ hide()
 document.querySelector(".log-out").addEventListener("click", logOut)
 function logOut(){
     localStorage.setItem("logged", false)
+    location.href = "index.html"
+}
+
+document.querySelector(".my-setting").addEventListener("click", openSetting)
+function openSetting(){
+    location.href= "setting.html"
 }

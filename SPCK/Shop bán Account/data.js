@@ -5,210 +5,210 @@ let data = {
             "name": "",
             "image": "./img hàng/accblabla.jpg",
             "rank": "Cao thủ",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10002",
             "name": "",
             "image": "./img hàng/accblabla2.jpg",
             "rank": "Cao thủ",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10003",
             "name": "",
             "image": "./img hàng/ckuMy0x3fN_1691747966.jpg",
             "rank": "Tinh Anh I",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10004",
             "name": "",
             "image": "./img hàng/CXYyTDoKla_1690174854.jpg",
             "rank": "Cao thủ",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10005",
             "name": "",
             "image": "./img hàng/ekGcsvyDzr_1685373793.jpg",
             "rank": "Cao thủ",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10006",
             "name": "",
             "image": "./img hàng/htHN4t4Afy_1691856959.jpg",
             "rank": "Tinh Anh I",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10007",
             "name": "",
             "image": "./img hàng/KXGtkMVjoC_1696520052.jpg",
             "rank": "Cao thủ",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10008",
             "name": "",
             "image": "./img hàng/lsdjpsF1d5_1691856413.jpg",
             "rank": "Tinh Anh I",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10009",
             "name": "",
             "image": "./img hàng/nU3GUUvwEm_1691858514.jpg",
             "rank": "Tinh Anh I",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10010",
             "name": "",
             "image": "./img hàng/YmltOBQSfc_1692544491.jpg",
             "rank": "Tinh Anh I",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10011",
             "name": "",
             "image": "./img hàng/accblabla.jpg",
             "rank": "Cao thủ",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10012",
             "name": "",
             "image": "./img hàng/accblabla2.jpg",
             "rank": "Cao thủ",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10013",
             "name": "",
             "image": "./img hàng/ckuMy0x3fN_1691747966.jpg",
             "rank": "Tinh Anh I",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10014",
             "name": "",
             "image": "./img hàng/CXYyTDoKla_1690174854.jpg",
             "rank": "Cao thủ",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10015",
             "name": "",
             "image": "./img hàng/ekGcsvyDzr_1685373793.jpg",
             "rank": "Cao thủ",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10016",
             "name": "",
             "image": "./img hàng/htHN4t4Afy_1691856959.jpg",
             "rank": "Tinh Anh I",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10017",
             "name": "",
             "image": "./img hàng/KXGtkMVjoC_1696520052.jpg",
             "rank": "Cao thủ",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10018",
             "name": "",
             "image": "./img hàng/lsdjpsF1d5_1691856413.jpg",
             "rank": "Tinh Anh I",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10019",
             "name": "",
             "image": "./img hàng/nU3GUUvwEm_1691858514.jpg",
             "rank": "Tinh Anh I",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10020",
             "name": "",
             "image": "./img hàng/YmltOBQSfc_1692544491.jpg",
             "rank": "Tinh Anh I",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10021",
             "name": "",
             "image": "./img hàng/accblabla.jpg",
             "rank": "Cao thủ",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10022",
             "name": "",
             "image": "./img hàng/accblabla2.jpg",
             "rank": "Cao thủ",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10023",
             "name": "",
             "image": "./img hàng/ckuMy0x3fN_1691747966.jpg",
             "rank": "Tinh Anh I",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10024",
             "name": "",
             "image": "./img hàng/CXYyTDoKla_1690174854.jpg",
             "rank": "Cao thủ",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10025",
             "name": "",
             "image": "./img hàng/ekGcsvyDzr_1685373793.jpg",
             "rank": "Cao thủ",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10026",
             "name": "",
             "image": "./img hàng/htHN4t4Afy_1691856959.jpg",
             "rank": "Tinh Anh I",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10027",
             "name": "",
             "image": "./img hàng/KXGtkMVjoC_1696520052.jpg",
             "rank": "Cao thủ",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10028",
             "name": "",
             "image": "./img hàng/lsdjpsF1d5_1691856413.jpg",
             "rank": "Tinh Anh I",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10029",
             "name": "",
             "image": "./img hàng/nU3GUUvwEm_1691858514.jpg",
             "rank": "Tinh Anh I",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
         {
             "id": "10030",
             "name": "",
             "image": "./img hàng/YmltOBQSfc_1692544491.jpg",
             "rank": "Tinh Anh I",
-            "prices": "1.000.000"
+            "prices": "1000000"
         },
     ]
 }
@@ -317,11 +317,15 @@ for(let i of data.account){
         let themVaoGio = document.querySelector(".modal-add" + i.id)
         themVaoGio.addEventListener("click", addAccount)
         function addAccount(){
-            if(localStorage.getItem("money")>= i.prices){
+            console.log(localStorage.getItem("money")
+            )
+            console.log(i.prices)
+            if(Number(localStorage.getItem("money"))>= Number(i.prices)){
                 localStorage.setItem("store-img", i.image)
                 localStorage.setItem("store-prices", i.prices)
                 localStorage.setItem("store-id", i.id)
                 localStorage.setItem("store-rank", i.rank)
+                localStorage.setItem("money", Number(localStorage.getItem("money")) - Number(i.prices))
                 alert("Đã thêm vào giỏ hàng!")
             }else{
                 alert("Tài khoản của bạn không đủ tiền")

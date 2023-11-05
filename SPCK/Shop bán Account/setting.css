@@ -1,0 +1,190 @@
+
+.bottom{
+    margin: 100px 0 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: block;
+    padding: 50px 0;
+    height: auto;
+    width:50%;
+    background-color: rgb(87, 85, 85);
+    border: 10px solid rgb(58, 57, 57);
+    border-radius: 30px;
+    color: rgb(218, 218, 218);
+}
+
+.title{
+    color: aqua;
+    margin: 20px 0 50px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.setting-name{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+.your-name{
+    width: 150px;
+    height: 30px;
+    background-color: rgba(151, 151, 151, 0.695);
+    border: 1px solid rgb(58, 58, 58);
+    border-radius: 10px;
+}
+.name{
+    text-align: center;
+    color: white;
+}
+.btn-change-name{
+    background: none;
+    border: none;
+    color: rgb(243, 243, 243);
+    font-weight: 600;
+}
+.btn-change-name:hover{
+    color: rgb(0, 0, 0);
+    text-decoration:underline;
+}
+
+.setting-password{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.aa{
+    display: flex;
+}
+.your-password{
+    width: 200px;
+    height: 30px;
+    background-color: rgba(151, 151, 151, 0.695);
+    border: 1px solid rgb(58, 58, 58);
+    border-radius: 10px;
+    display: flex;
+}
+.password{
+    width: 150px;
+    border: none;
+    outline: none;
+    background: none;
+    pointer-events: none;
+    font-size: 20px;
+    color: white;
+}
+.your-password a{
+    margin-top: 3px;
+    margin-left: 170px;
+    position: absolute;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn-change-password{
+    background: none;
+    border: none;
+    color: rgb(243, 243, 243);
+    font-weight: 600;
+}
+.btn-change-password:hover{
+    color: rgb(0, 0, 0);
+    text-decoration:underline;
+}
+
+.modal-name{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    transition: all 300ms linear;
+    visibility: hidden;
+    opacity: 0;
+}
+.modal-name-backdrop{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.41);
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.modal-name-content{
+    background-color: rgb(58, 56, 56);
+    border: 5px solid rgb(31, 30, 30);
+    border-radius: 20px;
+    width: 40%;
+    height: 30%;
+}
+.modal-name-content button{
+    width: 40%;
+    height: 20%;
+    margin-top: 100px;
+    border: solid 3px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.modal-name-content button:hover{
+    background-color: rgb(133, 133, 133);
+    border: solid 3px white;
+}
+
+
+.modal-password{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    transition: all 300ms linear;
+    visibility: hidden;
+    opacity: 0;
+}
+.modal-password-backdrop{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.41);
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.modal-password-content{
+    background-color: rgb(58, 56, 56);
+    border: 5px solid rgb(31, 30, 30);
+    border-radius: 20px;
+    width: 40%;
+    height: 30%;
+}
+.modal-password-content button{
+    width: 40%;
+    height: 20%;
+    margin-top: 100px;
+    border: solid 3px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.modal-password-content button:hover{
+    background-color: rgb(133, 133, 133);
+    border: solid 3px white;
+}
+.show{
+    visibility: visible;
+    opacity: 1;
+}

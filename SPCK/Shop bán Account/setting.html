@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setting | Shop SN_Oreo</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="chung.css">
+    <link rel="stylesheet" href="setting.css">
+</head>
+<body>
+    <!-- top -->
+    <div id="full">
+        <div id="top">
+            <div id="bla">
+                <a href="./index.html" id="home" class="top-item"><ion-icon name="home"></ion-icon> Home</a>
+                <a href="./giohang.html" id="giohang" class="top-item"><ion-icon name="cart"></ion-icon> Giỏ Hàng</a>
+                <label id="search"><ion-icon name="search"></ion-icon> Tìm Kiếm</label>
+                <input type="text" id="src">
+            </div>
+            <div id="join">
+                <a href="./sign.html" id="signup" class="join-item">Sign Up</a>
+                <label for="" id="no1">/</label>
+                <a href="./Login.html" id="login" class="join-item">Login</a>
+            </div>
+            <div class="logged hide">
+                <div class="logged-item myn">
+                    <div class="my-name"></div>
+                </div>
+                <div class="logged-item mya">
+                    <div class="my-avatar"></div></div>
+                    <div class="my-hide">
+                        <div class="my-flex">
+                            <div class="hide-item my-money">
+                                <h3 class="h3-money" ></h3>
+                            </div>
+                            <div class="hide-item my-setting">
+                                <h1>Setting</h1>
+                            </div>
+                            <div class="hide-item log-out">
+                                <h1>Log out</h1>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="container">
+            <div class="content">
+                <div class="title">
+                    <h1 class="title">Setting</h1>
+                </div>
+                <div class="main">
+                    <div class="setting-name">
+                        <h3>Username:</h3>
+                        <div class="your-name">
+                            <h3 class="name"></h3>
+                        </div>
+                        <div class="change-name">
+                            <button class="btn-change-name">Change your name</button>
+                        </div>
+                    </div>
+                    <div class="setting-avatar"></div>
+                    <div class="setting-password">
+                        <div class="aa">
+                            <h3>Password:</h3>
+                            <div class="your-password">
+                                <input type="password" class="password">
+                                <a class="show-password"><ion-icon name="eye"></ion-icon></a>
+                            </div>
+                        </div>
+                        <div class="change-password">
+                            <button class="btn-change-password">Change your password</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-name">
+        <div class="modal-name-backdrop">
+            <div class="modal-name-content">
+                <h2>New name</h2>
+                <div class="change-your-name">
+                    <input type="text" class="new-name">
+                </div>
+                <button class="unchange">Hủy</button>
+                <button class="enter-name">Accept</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-password">
+        <div class="modal-password-backdrop">
+            <div class="modal-password-content">
+                <h2>New password</h2>
+                <div class="change-your-password">
+                    <input type="text" class="new-password">
+                </div>
+                <button class="unchangep">Hủy</button>
+                <button class="enter-password">Accept</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- end -->
+    <div id="end">
+        <div id="end1">
+            <div>
+                <h2>Thông tin shop</h2>
+            </div>
+            <div>
+                <h2>dịch vụ chăm sóc khách hàng</h2>
+            </div>
+            <div>
+                <h2>hotline</h2>
+            </div>
+        </div>
+    </div>
+    <script src="logged.js"></script>
+    <script src="setting.js"></script>
+
+</body>
+</html>
