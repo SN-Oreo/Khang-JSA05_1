@@ -327,6 +327,7 @@ for(let i of data.account){
                 localStorage.setItem("store-rank", i.rank)
                 localStorage.setItem("money", Number(localStorage.getItem("money")) - Number(i.prices))
                 alert("Đã thêm vào giỏ hàng!")
+                location.href = "index.html"
             }else{
                 alert("Tài khoản của bạn không đủ tiền")
             }
